@@ -1,8 +1,9 @@
+
 import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model=pickle.load(open(r'C:\Users\Sathya\OneDrive\Desktop\batch10 minor\trained_model.sav','rb'))
+loaded_model=pickle.load(open('C:\Users\Sathya\OneDrive\Desktop\batch10 minor\trained_model.sav','rb'))
 
 def heart_disease(input_data):
     #changing the input data to numpy array
